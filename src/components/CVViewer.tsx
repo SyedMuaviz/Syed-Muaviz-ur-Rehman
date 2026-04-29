@@ -19,13 +19,13 @@ export const CVViewer = () => {
             className="flex-1"
           >
             <h2 className="text-white font-display font-medium text-3xl md:text-5xl mb-6">Academic <span className="italic font-serif">Portfolio</span></h2>
-            <p className="text-indigo-100 text-lg mb-10 max-w-md font-light leading-relaxed">
+            <p className="text-emerald-100 text-lg mb-10 max-w-md font-light leading-relaxed">
               Comprehensive CV detailing my academic standing (CGPA 3.89), research publications in AI, and high-performance technical stack.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <motion.a
-                href="/cv.pdf"
+                href="/resume.pdf"
                 download="Muaviz_Rehman_CV.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -39,7 +39,7 @@ export const CVViewer = () => {
                 rel="noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="w-full sm:w-auto px-8 py-4 bg-indigo-700 text-white rounded-xl font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-3 border border-white/10 hover:bg-indigo-800 transition-all"
+                className="w-full sm:w-auto px-8 py-4 bg-cyan-700 text-white rounded-xl font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-3 border border-white/10 hover:bg-cyan-800 transition-all"
               >
                 LinkedIn Profile <Eye size={18} />
               </motion.a>
@@ -54,7 +54,7 @@ export const CVViewer = () => {
           >
             <div className="p-12 bg-white rounded-3xl shadow-2xl relative">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-primary">
+                <div className="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-primary">
                   <FileText size={24} />
                 </div>
                 <div>

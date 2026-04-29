@@ -51,13 +51,13 @@ export const Experience = () => {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="p-6 bg-zinc-900 border border-indigo-500/10 rounded-2xl group hover:border-indigo-500/30 transition-all shadow-lg"
+                  className="p-6 bg-zinc-900 border border-cyan-500/10 rounded-2xl group hover:border-cyan-500/30 transition-all shadow-lg"
                 >
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-[0.2em] px-2.5 py-1 bg-zinc-800 rounded-full">
                       Leadership
                     </span>
-                    <Users size={16} className="text-zinc-600 group-hover:text-indigo-400 transition-colors" />
+                    <Users size={16} className="text-zinc-600 group-hover:text-cyan-400 transition-colors" />
                   </div>
                   <h4 className="text-base font-display font-bold text-zinc-100 uppercase tracking-wider mb-1">{act.role}</h4>
                   <p className="text-primary text-[10px] mb-3 italic uppercase tracking-[0.1em]">{act.organization}</p>

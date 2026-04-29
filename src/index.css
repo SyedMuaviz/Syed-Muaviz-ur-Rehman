@@ -6,11 +6,11 @@
   --font-display: "Outfit", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-  --color-primary: #6366f1; /* Indigo 500 */
-  --color-secondary: #0ea5e9; /* Sky 500 */
-  --color-accent: #f59e0b;
-  --color-background: #050505;
-  --color-surface: #0f0f12;
+  --color-primary: #10b981; /* Emerald 500 */
+  --color-secondary: #06b6d4; /* Cyan 500 */
+  --color-accent: #34d399; /* Emerald 400 */
+  --color-background: #040707;
+  --color-surface: #0a0f0f;
   
   --breakpoint-xs: 320px;
   --breakpoint-sm: 640px;
